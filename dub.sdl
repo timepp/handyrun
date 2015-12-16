@@ -1,5 +1,6 @@
 name "handyrun"
-description "A minimal D application."
+description "run frequent program easily"
 copyright "Copyright © 2015, idtong"
-authors "idtong"
+authors "timepp"
+license "MIT"
 lflags "-Subsystem:Windows:4"
