@@ -2,6 +2,8 @@ import std.stdio;
 import core.sys.windows.windows;
 import core.runtime;
 import std.string;
+import progman;
+import common;
 
 extern (Windows)
 int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
@@ -29,5 +31,16 @@ int myWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
               LPSTR lpCmdLine, int nCmdShow)
 {
     // ... insert user code here ...
+    program prog;
+    prog.id = "fjdksal";
+    prog.name = "100";
+
+    auto mgr = new ProgramManager;
+    mgr.initialize();
+
+    mgr.addProgram(prog);
+
+    mgr.uninitialize();
+    
     return 0;
 }

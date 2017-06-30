@@ -13,3 +13,10 @@ the main process.
 
 ## configuration
 the configuration is json file and can be modified manually.
+
+## program
+each program has a unique ID. this ID is used to link the key program data with other program data stored otherwhere.
+for example, UI components will store the program icons/images seperately.
+
+# TODO
+## need better json serialization/deserialization, see http://vibed.org/api/vibe.data.json/serializeToJson
