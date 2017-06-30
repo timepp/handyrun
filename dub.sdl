@@ -1,6 +1,0 @@
-name "handyrun"
-description "run frequent program easily"
-copyright "Copyright © 2015, idtong"
-authors "timepp"
-license "MIT"
-lflags "-Subsystem:Windows:4"

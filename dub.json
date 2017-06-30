@@ -1,0 +1,10 @@
+{
+    "name": "handyrun",
+    "description": "run frequent program easily",
+    "copyright": "Copyright 2016, timepp",
+    "authors": ["timepp"],
+    "license": "MIT",
+    "lflags": [
+        "-Subsystem:Windows:4"
+    ]
+}
